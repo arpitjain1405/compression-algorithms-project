@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 
 app.use(
   cors({
-    origin: true,
+    origin: ["https://compression-algorithms-project.vercel.app/", "http://localhost:5173"],
     credentials: true,
   }),
 )
