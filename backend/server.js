@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://compression-algorithms-project-backend.onrender.com"],
+    origin: true,
     credentials: true,
   }),
 )
